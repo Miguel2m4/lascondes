@@ -14,7 +14,7 @@
 	<div class="Top">
 		<div class="Top-cent">
 			<div class="Top-izq">
-				<img src="images/logo.png">
+				<a href="/"><img src="images/logo.png"></a>
 			</div>
 			<div class="Top-der">
 				<?php include("menu.php"); ?>

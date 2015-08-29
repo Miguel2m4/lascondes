@@ -10,6 +10,9 @@
   font-family: Open-sans-l;
   src: url("../fonts/OpenSans-Light.ttf");
 }
+a:focus {
+  outline: none;
+}
 body {
   background: #f9f9f9;
   margin: 0;
@@ -20,28 +23,59 @@ header {
 }
 .Top {
   background: #fff;
+  border-bottom: 2px solid #01aef1;
   margin: 0px auto 0px auto;
   position: fixed;
   width: 100%;
 }
 .Top-cent {
   margin: 0px auto 0px auto;
-  width: 65%;
+  width: 60%;
 }
 .Top-izq {
   text-align: left;
 }
+.Top-der {
+  margin-top: -82px;
+  float: right;
+}
 .Top-der ul {
   float: right;
-  margin: 32px 0px 0px 0px;
+  margin: 28px 0px 0px 0px;
 }
 .Top-der ul li {
   display: inline-block;
   list-style: none;
 }
+.Top-der ul li .atento {
+  background: #41a3ad;
+  border: 1px solid #41a3ad;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  color: #fff;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+}
+.Top-der ul li .atento:hover {
+  background: #35919a;
+  color: #fff;
+}
 .Top-der ul li a {
+  color: #01aef1;
+  font-family: Open-sans-b;
   padding: 0.5em;
   text-decoration: none;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+}
+.Top-der ul li a:hover {
+  color: #0299d4;
 }
 .Top-izq,
 .Top-der {
@@ -49,5 +83,6 @@ header {
   vertical-align: top;
 }
 .Top-izq img {
-  width: 180px;
+  padding: 0.8em;
+  width: 150px;
 }

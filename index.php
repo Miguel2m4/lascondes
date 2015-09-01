@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+<meta charset="utf-8" />
 <meta name="viewport" content="width=device-width , initial-scale=1 ,maximum-scale=1 user-scalable=no" />
 <meta name="keywords" lang="es" content="Diseño de Sonrisa , Implantes dentales, Rehabilitación oral, Clínica odontológica en Villavicencio, Odontologia en Villavicencio">
 <meta name="robots" content="All">

@@ -36,12 +36,12 @@ header {
   text-align: left;
 }
 .Top-der {
-  margin-top: -82px;
+  margin-top: 80px;
   float: right;
 }
 .Top-der ul {
   float: right;
-  margin: 28px 0px 0px 0px;
+  margin: -50px 0px 0px 0px;
 }
 .Top-der ul li {
   display: inline-block;
@@ -85,4 +85,43 @@ header {
 .Top-izq img {
   padding: 0.8em;
   width: 150px;
+}
+@media screen and (max-width: 1460px) {
+  .Top {
+    width: 100%;
+  }
+  .Top-cent {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 1260px) {
+  .Top {
+    width: 100%;
+  }
+  .Top-cent {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 960px) {
+  .Top-der {
+    margin-top: -30px;
+    width: 100%;
+  }
+  .Top-der ul {
+    margin-top: 10px;
+    margin-bottom: 7px;
+    width: 100%;
+  }
+  .Top-der ul li {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  .Top-izq {
+    text-align: center;
+    width: 100%;
+  }
+  .Top-izq img {
+    width: 110px;
+  }
 }
